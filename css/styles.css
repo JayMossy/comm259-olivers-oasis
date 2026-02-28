@@ -1,4 +1,44 @@
+* {
+    text-align: center;
+}
+
 .mascot{
     max-width: 200px;
     height: auto;
+    display: flex;
+    margin: 20px auto;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #392515;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #CAC7BA;
+    color: #392515;
+    margin: 0;
+    line-height: 1.6;
+}
+
+h2 {
+    color: #CD722D;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+a {
+    color: #CD722D;
+}
+
+a:hover {
+    color: #844705;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
 }
