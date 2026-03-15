@@ -41,4 +41,19 @@ nav ul {
     padding: 0;
     display: flex;
     gap: 20px;
+    text-align: left;
+}
+
+.content {
+    text-align: left;
+    color: #392515;
+}
+
+.thoughts-box {
+    background-color: #f5e8d8;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 700px;
+    margin: 30px auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
