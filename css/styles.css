@@ -1,19 +1,63 @@
-* {
-    text-align: center;
-}
-
-.mascot{
-    max-width: 200px;
-    height: auto;
-    display: flex;
-    margin: 20px auto;
+/* content sections */
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
 }
 
 h1 {
-    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
     color: #392515;
+    margin: 0;
 }
 
+h2 {
+    color: #CD722D;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+h3 {
+    color: #392515;
+    font-size: 1.3rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+/* links */
+a {
+    color: #CD722D;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #844705;
+}
+
+nav a {
+    font-weight: bold;
+}
+
+/* header */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.site-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+}
+
+/* body */
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #CAC7BA;
@@ -22,33 +66,26 @@ body {
     line-height: 1.6;
 }
 
-h2 {
-    color: #CD722D;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-}
-
-a {
-    color: #CD722D;
-}
-
-a:hover {
-    color: #844705;
-}
-
+/* nav */
 nav ul {
-    list-style-type: none;
-    padding: 0;
+    list-style: none;
     display: flex;
+    justify-content: center;
     gap: 20px;
-    text-align: left;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
 }
 
+/* page content */
 .content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
     text-align: left;
-    color: #392515;
 }
 
+/* text box */
 .thoughts-box {
     background-color: #f5e8d8;
     border-radius: 12px;
@@ -56,4 +93,28 @@ nav ul {
     max-width: 700px;
     margin: 30px auto;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.thoughts-box ul {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.thoughts-box li {
+    margin-bottom: 10px;
+}
+
+/* button style */
+.button {
+    display: inline-block;
+    background-color: #CD722D;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #844705;
+    color: white;
 }
