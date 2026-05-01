@@ -219,3 +219,113 @@ nav ul {
 .reset-button {
     background-color: #CD722D;
 }
+
+/* Italy localized homepage */
+.italy-page {
+    background-color: #f4f5f0;
+    color: #2f2418;
+}
+
+.italy-header {
+    background-color: #fffaf5;
+    border-bottom: 6px solid #008C45;
+}
+
+.italy-page h1 {
+    color: #2f2418;
+}
+
+.italy-page h2 {
+    color: #008C45;
+}
+
+.italy-page h3 {
+    color: #2f2418;
+}
+
+.italy-page .button {
+    background-color: #008C45;
+    color: white;
+}
+
+.italy-page .button:hover {
+    background-color: #CD212A;
+    color: white;
+}
+
+.italy-content {
+    max-width: 900px;
+}
+
+.italy-hero {
+    background-color: #fffaf5;
+    border-radius: 16px;
+    padding: 30px;
+    margin: 30px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+    border: 2px solid #e2d5c4;
+}
+
+.italy-flag-bar {
+    display: flex;
+    height: 12px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.italy-flag-bar span {
+    flex: 1;
+}
+
+.italy-flag-bar .green {
+    background-color: #008C45;
+}
+
+.italy-flag-bar .white {
+    background-color: #ffffff;
+}
+
+.italy-flag-bar .red {
+    background-color: #CD212A;
+}
+
+.italy-card {
+    background-color: #fffaf5;
+    border-left: 8px solid #CD212A;
+}
+
+.italy-page a {
+    color: #008C45;
+}
+
+.italy-page a:hover {
+    color: #CD212A;
+}
+
+/* mobile support for localized page */
+@media screen and (max-width: 600px) {
+    .italy-hero {
+        padding: 20px;
+    }
+
+    .italy-page h1 {
+        font-size: 2.2rem;
+    }
+
+    .italy-page h2 {
+        font-size: 1.5rem;
+    }
+
+    .site-logo {
+        flex-direction: column;
+    }
+
+    nav ul {
+        gap: 10px;
+    }
+
+    .button {
+        padding: 8px 12px;
+    }
+}
